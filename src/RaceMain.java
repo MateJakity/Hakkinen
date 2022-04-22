@@ -34,8 +34,6 @@ public class RaceMain {
                     }else{
                         helyezes = Integer.parseInt(raceRound[3]);
                     }
-                    //pont Integerré alakítása
-
                     Race race = new Race(raceRound[0], date, raceRound[2], helyezes, pont);
                     raceLista.add(race);
                 }
