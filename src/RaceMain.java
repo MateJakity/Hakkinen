@@ -29,7 +29,7 @@ public class RaceMain {
                     int helyezes;
                     int pont = Integer.parseInt(raceRound[4]);
                     System.out.println(pont);
-                    if(raceRound[3].equals("-")){
+                    if(raceRound[3].equals("-") || raceRound[3].isEmpty()){
                         helyezes = 0;
                     }else{
                         helyezes = Integer.parseInt(raceRound[3]);
